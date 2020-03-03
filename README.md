@@ -28,7 +28,6 @@ hook.trace('title', 'message', 'username', 'timestamp');
 hook.trace('title', 'message', 'username');
 hook.trace('title', 'message');
 hook.trace('message');
-hook.trace('message');
 
 hook.debug('test');
 hook.info('test');
