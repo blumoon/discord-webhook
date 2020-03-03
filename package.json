@@ -1,0 +1,23 @@
+{
+  "name": "@blumoon/discord-webhook",
+  "version": "0.0.1",
+  "description": "Simple discord webhook",
+  "repository": "https://github.com/blumoon/discord-webhook.git",
+  "author": "Blumoon Technologies Private Corp.",
+  "main": "index.js",
+  "keywords": [
+    "discord",
+    "webhook"
+  ],
+  "devDependencies": {
+    "@blumoon/eslint-config-blumoon": "*"
+  },
+  "scripts": {
+    "test": "eslint .",
+    "prepublishOnly": "npm run test"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "license": "MIT"
+}
