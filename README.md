@@ -5,7 +5,7 @@
 
 General use discord webhook
 
-```
+```js
 const DiscordHook = require('@blumoon/discord-webhook');
 const hookStr = new DiscordHook('https://discordapp.com/api/webhooks/123456789123456789/aBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeFgHiJkLmNoPqRsTuVwXyZaBcDeFgHiJkLmNoP');
 const hook = new DiscordHook({
